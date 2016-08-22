@@ -1,0 +1,97 @@
+body {
+	margin: 0;
+}
+
+/*Fonts*/
+
+h1, h2 {
+	font-family: 'Fjalla One', Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 4rem;
+	margin: 0 0 15px 0;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-size: 2.25em;
+	margin: 0;
+}
+
+p {
+	margin-top: 0;
+}
+
+p.small {
+	font-size: 0.75rem;
+	margin-left: 10px;
+}
+
+a {
+	color: #000;
+}
+
+p, ul, li {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.25rem;
+	line-height: 1.5;
+}
+
+/*Containers*/
+
+.container {
+	width: 60vw;
+}
+
+.c_purple {
+	border-left: 10px solid #9370DB;
+	padding: 30px 0 30px 30px;
+}
+
+.c_pink {
+	border-left: 10px solid #CA2E55;
+	padding: 30px 0 30px 30px;
+}
+
+.c_blue {
+	border-left: 10px solid #4876FF;
+	padding: 30px 0 30px 30px;
+}
+
+.c_green {
+	border-left: 10px solid #9EE493;
+	padding: 30px 0 30px 30px;
+}
+
+.lists {
+	list-style: none;
+	margin-bottom: 0;
+}
+
+.lists li {
+	margin-bottom: 5px;
+}
+
+ul.lists > li:before {
+  content: "-";
+  margin-right: 5px;
+}
+
+.margin-left {
+	padding-left: 40px;
+}
+
+/*/Articles*/
+
+.article p {
+	font-weight: 300;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 550px) {
+  .container {
+		width: 85vw;
+	}
+}

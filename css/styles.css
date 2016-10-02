@@ -1,68 +1,79 @@
 body {
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
 	margin: 0;
 }
 
 /*Fonts*/
 
-h1, h2 {
-	font-family: 'Fjalla One', Helvetica, sans-serif;
-}
-
 h1 {
+	font-family: 'Fjalla One', Helvetica, sans-serif;
 	font-size: 4rem;
 	margin: 0 0 15px 0;
 	letter-spacing: 2px;
 }
 
 h2 {
-	font-size: 2.25em;
-	margin: 0;
+	font-weight: normal;
+	font-size: 1.25em;
+	margin-top: 0;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 1em;
 }
 
 p {
 	margin-top: 0;
-}
-
-p.small {
-	font-size: 0.75rem;
-	margin-left: 10px;
+	font-size: 1rem;
+	line-height: 1.5;
 }
 
 a {
 	color: #000;
 }
 
-p, ul, li {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1.25rem;
-	line-height: 1.5;
-}
-
 /*Containers*/
 
 .container {
-	width: 60vw;
+	width: 55vw;
 }
 
 .c_purple {
-	border-left: 10px solid #9370DB;
-	padding: 30px 0 30px 30px;
-}
-
-.c_pink {
-	border-left: 10px solid #CA2E55;
+	border-left: 10px solid #9B58B6;
 	padding: 30px 0 30px 30px;
 }
 
 .c_blue {
-	border-left: 10px solid #4876FF;
+	border-left: 10px solid #3396D9;
 	padding: 30px 0 30px 30px;
 }
 
 .c_green {
-	border-left: 10px solid #9EE493;
+	border-left: 10px solid #2CCA71;
 	padding: 30px 0 30px 30px;
 }
+
+.c_teal {
+	border-left: 10px solid #3CC5AA;
+	padding: 30px 0 30px 30px;
+}
+
+.c_yellow {
+	border-left: 10px solid #F1C42C;
+	padding: 30px 0 30px 30px;
+}
+
+.c_orange {
+	border-left: 10px solid #E57E22;
+	padding: 30px 0 30px 30px;
+}
+
+.c_red {
+	border-left: 10px solid #E64C3A;
+	padding: 30px 0 30px 30px;
+}
+
 
 .lists {
 	list-style: none;
@@ -70,7 +81,7 @@ p, ul, li {
 }
 
 .lists li {
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 ul.lists > li:before {
@@ -78,14 +89,12 @@ ul.lists > li:before {
   margin-right: 5px;
 }
 
-.margin-left {
-	padding-left: 40px;
+.ml-s {
+	margin-left: 20px;
 }
 
-/*/Articles*/
-
-.article p {
-	font-weight: 300;
+.ml {
+	margin-left: 40px;
 }
 
 /*Media Queries*/
@@ -93,5 +102,8 @@ ul.lists > li:before {
 @media screen and (max-width: 550px) {
   .container {
 		width: 85vw;
+	}
+	.ml {
+		margin-left: 20px;
 	}
 }
